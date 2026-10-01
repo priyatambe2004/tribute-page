@@ -1,0 +1,134 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+
+header {
+    background-color: #12355b;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+header p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+
+
+section {
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+
+.intro {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+figure img {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+
+h2 {
+    color: #12355b;
+    margin-top: 0;
+}
+
+
+
+
+.achievements li {
+    margin-bottom: 12px;
+}
+
+
+
+
+.timeline-item {
+    border-left: 4px solid #12355b;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.timeline-item h3 {
+    color: #12355b;
+    margin-bottom: 5px;
+}
+
+
+
+footer {
+    background-color: #12355b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+@media (max-width: 700px) {
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    .intro {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    figure img {
+        width: 200px;
+        height: 250px;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
